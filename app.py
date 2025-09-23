@@ -1,4 +1,7 @@
+import sys
+sys.path.append('/home/ec2-user/.local/lib/python3.9/site-packages')
 from flask import Flask, jsonify, request
+
 
 app = Flask(__name__)
 
