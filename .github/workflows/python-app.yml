@@ -25,4 +25,4 @@ jobs:
         python3 -m pip install --upgrade pip
         pip install -r requirements.txt
         sudo chmod 777 app.py
-        sudo python3 app.py
+        nohup sudo python3 app.py &
